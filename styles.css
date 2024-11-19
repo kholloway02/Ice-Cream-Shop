@@ -1,0 +1,118 @@
+/* CSS Stylesheet for Sweet Scoops Ice Cream Shop */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0; /* Light pink background */
+    color: #2a2a2a; /* Dark gray text for readability */
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #ff9aa2, #a2d2ff); /* Pink to blue gradient */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #a2d2ff; /* Light blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ff6290; /* Vibrant pink for headings */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff9aa2; /* Light pink */
+    color: #2a2a2a; /* Dark gray text for readability */
+}
+
+table td {
+    color: #2a2a2a; /* Dark gray text */
+}
+
+/* Form styles */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #2a2a2a; /* Dark gray text for forms */
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff9aa2; /* Light pink */
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a2d2ff; /* Light blue hover effect */
+}
+
+/* Background image section */
+section[style*="background-image"] {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgba(162, 210, 255, 0.8); /* Transparent light blue */
+}

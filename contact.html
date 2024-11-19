@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Sweet Scoops Ice Cream Shop for inquiries or feedback!">
+    <title>Contact Us - Sweet Scoops</title>
+    <link rel="stylesheet\" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sweet Scoops Ice Cream Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! If you would like to leave a message or request a flavor, please fill out the form below. </p>
+
+            <form onsubmit="confirmSubmission(event)">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <label for="request">Flavor Request:</label><br>
+                <textarea id="message" name="message" rows="2" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit</button>           
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sweet Scoops Ice Cream Shop | Reach out for a scoop of joy!</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function confirmSubmission(event) {
+            event.preventDefault();
+            alert("Thank you! Your message has been submitted.");
+            document.querySelector("form").reset();
+        }
+    </script>
+</body>
+</html>
